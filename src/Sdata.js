@@ -54,6 +54,13 @@ const Sdata = [
         title:"A Netflix Orignal Series",
 
         links:"https://www.netflix.com/in/title/80189685"
+    },
+    {
+        sname:"Arrow",
+        imgsrc:"https://wallpapercave.com/uwp/uwp30710.jpeg",
+        title:"A Netflix Orignal Series",
+
+        links:"https://www.netflix.com/in/title/70242081#:~:text=Based%20on%20DC%20Comics'%20Green,Amell%2C%20Katie%20Cassidy%2C%20David%20Ramsey"
     }
     
 ];
