@@ -10,7 +10,8 @@ ReactDOM.render(
   <>
     <h1 className="heading_style">List of Top 10 Netflix Series in All Time</h1>
 
-     {Sdata.map( function ncard(val){
+     {Sdata.map( (val,index)=>{
+       
        return (
         <Card
       
@@ -22,6 +23,9 @@ ReactDOM.render(
 
        )
      }) }
+
+    
+     
   </>
   
   ,
