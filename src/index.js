@@ -4,24 +4,24 @@ import Card from './Card'
 import "./index.css";
 import Sdata from "./Sdata";
 
-function ncard(val){
-   return (
-    <Card
-      
-      
-    imgsrc={val.imgsrc}
-    title={val.title}
-    sname={val.sname}
-    links={val.links} />
 
-   )
-}
-
+    
 ReactDOM.render(
   <>
     <h1 className="heading_style">List of Top 10 Netflix Series in All Time</h1>
 
-     {Sdata.map(ncard)}
+     {Sdata.map( function ncard(val){
+       return (
+        <Card
+      
+      
+        imgsrc={val.imgsrc}
+        title={val.title}
+        sname={val.sname}
+        links={val.links} />
+
+       )
+     }) }
   </>
   
   ,
