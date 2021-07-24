@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useDebugValue } from 'react';
 import ReactDOM from 'react-dom';
 import Card from './Card'
 import "./index.css";
@@ -15,7 +15,7 @@ ReactDOM.render(
        return (
         <Card
       
-      
+      key={val.id}
         imgsrc={val.imgsrc}
         title={val.title}
         sname={val.sname}
